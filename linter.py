@@ -25,7 +25,7 @@ class LintTrap(NodeLinter):
     executable = None
     version_args = '--version'
     version_re = r'(?P<version>\d+\.\d+\.\d+)'
-    version_requirement = '>= 0.3.0'
+    version_requirement = '>= 0.4.0'
     regex = (
         r'^.+?: line (?P<line>\d+), col (?P<col>\d+), '
         r'(?:(?P<error>Error)|(?P<warning>Warning)) - '
