@@ -13,10 +13,10 @@
 
 """This module exports the LintTrap plugin class."""
 
-from SublimeLinter.lint import NodeLinter, util
+from SublimeLinter.lint import Linter, util
 
 
-class LintTrap(NodeLinter):
+class LintTrap(Linter):
 
     """Provides an interface to the lint-trap executable."""
 
